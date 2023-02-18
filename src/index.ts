@@ -1,3 +1,4 @@
+import DIP from "./DIP";
 import ISP from "./ISP";
 import LSP from "./LSP";
 import OCP from "./OCP";
@@ -11,4 +12,6 @@ import srp from "./SRP";
 
 // LSP();
 
-ISP();
+// ISP();
+
+DIP();
