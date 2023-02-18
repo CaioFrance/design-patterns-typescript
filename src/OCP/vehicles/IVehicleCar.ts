@@ -6,4 +6,6 @@ export default interface IVehicleCar {
     seats: number,
     doors: number
   ): void;
+
+  startVehicle(): void;
 }

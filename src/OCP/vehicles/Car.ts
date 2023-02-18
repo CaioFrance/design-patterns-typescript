@@ -1,7 +1,6 @@
 import IVehicleCar from "./IVehicleCar";
-import Vehicle from "./Vehicle";
 
-export default class Car extends Vehicle implements IVehicleCar {
+export default class Car implements IVehicleCar {
   constructor(
     color: string,
     year: number,
@@ -9,7 +8,6 @@ export default class Car extends Vehicle implements IVehicleCar {
     seats: number,
     doors: number
   ) {
-    super();
     this.configure(color, year, engine, seats, doors);
   }
 
