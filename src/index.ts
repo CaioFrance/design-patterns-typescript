@@ -1,3 +1,4 @@
+import LSP from "./LSP";
 import OCP from "./OCP";
 import srp from "./SRP";
 
@@ -6,3 +7,5 @@ import srp from "./SRP";
 
 // OCP test
 // OCP();
+
+LSP();
