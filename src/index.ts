@@ -1,4 +1,7 @@
+import FactoryMethod from "./FactoryMethod";
 import SOLID from "./SOLID";
 
 // SOLID test
-SOLID();
+// SOLID();
+
+FactoryMethod("bike");
